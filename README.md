@@ -3,13 +3,6 @@
 ## Description
 This app is a basic authentication app, works with jwt tokens and mongodb.
 
-### Installiation
-`yarn install`
-`npm install`
-
-
-### Run Server
-`yarn start`
-`npm start`
-
-
+## config.env file
+MONGO_URI=mongodb://mongo:27017/test
+PORT=3000

@@ -23,7 +23,7 @@ app.set('view engine', 'ejs');
 
 // DB connect
 const dbURI = process.env.MONGO_URI;
-mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
+mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, })
   .then((result) => {
     app.listen(PORT, () => {
       console.log(`Service is running on http://localhost:${PORT}`)
